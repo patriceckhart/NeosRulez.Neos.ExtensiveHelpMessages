@@ -1,0 +1,30 @@
+Neos:
+#  Flow:
+#    security:
+#      authentication:
+#        providers:
+#          'Neos.Neos:Backend':
+#            requestPatterns:
+#              'NeosRulez.Neos.Selector:Commands':
+#                pattern: ControllerObjectName
+#                patternOptions:
+#                  controllerObjectNamePattern: 'NeosRulez\Neos\SSHTerminal\Controller\.*'
+  Neos:
+    Ui:
+      resources:
+        stylesheets:
+          NeosRulez.Neos.ExtensiveHelpMessages:
+            resource: '${"resource://NeosRulez.Neos.ExtensiveHelpMessages/Public/Plugin.css"}'
+        javascript:
+          NeosRulez.Neos.ExtensiveHelpMessages:
+            resource: '${"resource://NeosRulez.Neos.ExtensiveHelpMessages/Public/Plugin.js"}'
+      frontendConfiguration:
+        'NeosRulez.Neos.ExtensiveHelpMessages:Style': '${Configuration.setting(''NeosRulez.Neos.ExtensiveHelpMessages.style'')}'
+
+NeosRulez:
+  Neos:
+    ExtensiveHelpMessages:
+      style:
+        backgroundColor: '#141414'
+        textColor: '#FFFFFF'
+        borderColor: '#00ADEE'

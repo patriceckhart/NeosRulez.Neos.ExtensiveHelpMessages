@@ -1,0 +1,22 @@
+{
+  "description": "More extensive help messages for Neos CMS Inspector properties.",
+  "license": "GNU GPLv3",
+  "private": true,
+  "scripts": {
+    "build": "neos-react-scripts build",
+    "watch": "neos-react-scripts watch"
+  },
+  "devDependencies": {
+    "@neos-project/neos-ui-extensibility": "^8.0.1"
+  },
+  "neos": {
+    "buildTargetDirectory": "../../Public"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@neos-project/build-essentials": "^8.0.1",
+    "@neos-project/react-ui-components": "^8.0.1"
+  }
+}

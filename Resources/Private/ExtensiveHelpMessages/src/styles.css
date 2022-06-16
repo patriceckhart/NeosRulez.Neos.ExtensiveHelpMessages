@@ -1,0 +1,9 @@
+.inspectorPropWrapper { position: relative; }
+.extensiveHelpMessageWrapper { position: absolute; left:0; top:0; z-index:2; }
+.extensiveHelpMessageWrapper .extensiveHelpMessage { display:block; border-left:2px solid transparent; padding:15px; box-shadow: 0 20px 40px rgb(0 0 0 / 80%); width: calc(100% - 20px); margin-left: 20px; margin-top: -3px; }
+.extensiveHelpMessageWrapper .extensiveHelpMessage h1, .extensiveHelpMessageWrapper .extensiveHelpMessage h2, .extensiveHelpMessageWrapper .extensiveHelpMessage h3, .extensiveHelpMessageWrapper .extensiveHelpMessage h4, .extensiveHelpMessageWrapper .extensiveHelpMessage h5, .extensiveHelpMessageWrapper .extensiveHelpMessage h6 { margin-top:0; margin-bottom:0.5rem !important; }
+.extensiveHelpMessageWrapper .extensiveHelpMessage .extensiveHelpMessageImage { margin-bottom: 0.8rem; }
+.extensiveHelpMessageWrapper .extensiveHelpMessage .extensiveHelpMessageImage img { display: block; width:100%; height:auto; }
+.extensiveHelpMessageButton, .extensiveHelpMessageButtonActive { position: absolute; top:0; right:0; outline:0; padding:0; margin:0; border:0; background:#222; color:#fff; cursor:pointer; font-size:15px !important; margin-top:-23px !important; }
+.extensiveHelpMessageButton:hover { background:#222; }
+.extensiveHelpMessageButton:hover svg path, .extensiveHelpMessageButtonActive svg path { fill:#00ADEE; }

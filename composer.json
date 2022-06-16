@@ -1,0 +1,18 @@
+{
+  "description": "More extensive help messages for Neos CMS Inspector properties.",
+  "type": "neos-package",
+  "name": "neosrulez/neos-extensivehelpmessages",
+  "require": {
+    "neos/neos": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "NeosRulez\\Neos\\ExtensiveHelpMessages\\": "Classes/"
+    }
+  },
+  "extra": {
+    "neos": {
+      "package-key": "NeosRulez.Neos.ExtensiveHelpMessages"
+    }
+  }
+}
